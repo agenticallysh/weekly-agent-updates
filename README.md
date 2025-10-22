@@ -6,7 +6,7 @@
 [![Subscribers](https://img.shields.io/badge/Subscribers-15k+-blue.svg)](https://www.agentically.sh/ai-agentic-frameworks/subscribe/)
 [![Frameworks Tracked](https://img.shields.io/badge/Frameworks-40+-orange.svg)](https://www.agentically.sh/ai-agentic-frameworks/all/)
 
-## 📈 This Week's Highlights (Oct 15-22, 2024)
+## 📈 This Week's Highlights (Oct 15-22, 2025)
 
 ### 🚀 Major Releases
 
@@ -47,13 +47,13 @@
 
 **LangChain Agent Deprecation**
 - 🚨 **Breaking**: `initialize_agent` deprecated in favor of `create_react_agent`
-- 📅 **Timeline**: Removal in v0.3.0 (estimated Dec 2024)
+- 📅 **Timeline**: Removal in v0.3.0 (estimated Dec 2025)
 - 🔧 **Migration**: [Automated migration tool](https://www.agentically.sh/ai-agentic-frameworks/langchain-agent-migration/)
 
 **Haystack Agents API Change**
 - 🔄 **Change**: Agent initialization syntax updated
 - 📖 **Guide**: [Migration documentation](https://docs.haystack.deepset.ai/v2.0/docs/migrating-from-haystack-1x)
-- ⏰ **Action Required**: Update by Nov 15, 2024
+- ⏰ **Action Required**: Update by Nov 15, 2025
 
 [View all breaking changes →](https://www.agentically.sh/ai-agentic-frameworks/breaking-changes/)
 
@@ -208,12 +208,12 @@ Recent survey of 5,000 developers:
 ## 📖 Previous Updates
 
 ### Recent Weeks
-- [Oct 8-15, 2024](./updates/2024-10-15.md) - LangChain v0.3 beta, CrewAI integrations
-- [Oct 1-8, 2024](./updates/2024-10-08.md) - AutoGen multimodal support, new benchmarks
-- [Sep 24-Oct 1, 2024](./updates/2024-10-01.md) - Haystack 2.0 release, performance updates
+- [Oct 8-15, 2025](./updates/2025-10-15.md) - LangChain v0.3 beta, CrewAI integrations
+- [Oct 1-8, 2025](./updates/2025-10-08.md) - AutoGen multimodal support, new benchmarks
+- [Sep 24-Oct 1, 2025](./updates/2025-10-01.md) - Haystack 2.0 release, performance updates
 
 ### Archive
-- [All 2024 Updates](./archive/2024/)
+- [All 2025 Updates](./archive/2025/)
 - [Framework Launch Timeline](./timeline.md)
 - [Major Release History](./releases.md)
 
