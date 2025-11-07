@@ -1,245 +1,194 @@
-# Weekly Agent Framework Updates
+# Weekly AI Agent Framework Updates
 
-📊 Weekly digest of what's happening in AI agent frameworks. New releases, trending repos, breaking changes, and deprecations.
+📊 **Your weekly digest of AI agent framework developments** | Updated every Thursday
 
-[![Weekly Updates](https://img.shields.io/badge/Updated-Weekly-green.svg)](https://www.agentically.sh/ai-agentic-frameworks/updates/)
-[![Subscribers](https://img.shields.io/badge/Subscribers-15k+-blue.svg)](https://www.agentically.sh/ai-agentic-frameworks/subscribe/)
-[![Frameworks Tracked](https://img.shields.io/badge/Frameworks-40+-orange.svg)](https://www.agentically.sh/ai-agentic-frameworks/all/)
+[![GitHub stars](https://img.shields.io/github/stars/agenticallysh/weekly-agent-updates?style=social)](https://github.com/agenticallysh/weekly-agent-updates)
+[![Weekly Updates](https://img.shields.io/badge/Updated-Weekly-green.svg)](#-weekly-updates-index)
+[![Contributors](https://img.shields.io/badge/Contributors-Welcome-blue.svg)](#-contributing)
 
-## 📈 This Week's Highlights (Oct 15-22, 2025)
-
-### 🚀 Major Releases
-
-**CrewAI v0.12.0** - Native Memory Management
-- ✨ **New**: Built-in conversation memory across tasks
-- 🔧 **Improved**: 23% faster task execution  
-- 🐛 **Fixed**: Memory leaks in long-running crews
-- 📖 [Release Notes](https://github.com/joaomdmoura/crewAI/releases/tag/v0.12.0)
-- 🎯 **Migration**: [LangChain → CrewAI guide updated](https://www.agentically.sh/ai-agentic-frameworks/migrate/langchain-to-crewai/)
-
-**AutoGen v0.2.15** - Performance Optimizations  
-- ⚡ **Performance**: 18% memory usage reduction
-- 🆕 **Feature**: Custom tool registration API
-- 🔒 **Security**: Enhanced conversation filtering
-- 📖 [Release Notes](https://github.com/microsoft/autogen/releases/tag/v0.2.15)
-
-**LangGraph v0.0.45** - Parallel Processing
-- 🔄 **New**: Parallel node execution (31% faster)
-- 🛠️ **Tools**: Improved debugging interface
-- 📊 **Monitoring**: Built-in performance metrics
-- 📖 [Release Notes](https://github.com/langchain-ai/langgraph/releases/tag/v0.0.45)
-
-### 📈 Trending Repositories
-
-1. **SmolAgents** (+2,341 ⭐ this week)
-   - Lightweight agent framework for resource-constrained environments
-   - [Repository](https://github.com/huggingfaceh4/smolagents) | [Quick Start](https://www.agentically.sh/ai-agentic-frameworks/smolagents/)
-
-2. **OpenAI AgentKit** (+1,892 ⭐ this week)  
-   - Official OpenAI framework for building agents
-   - [Repository](https://github.com/openai/agentkit) | [Comparison](https://www.agentically.sh/ai-agentic-frameworks/compare/openai-agentkit/)
-
-3. **Anthropic Agent Framework** (+1,456 ⭐ this week)
-   - Native Claude integration with tool use
-   - [Repository](https://github.com/anthropics/agent-framework) | [Guide](https://www.agentically.sh/ai-agentic-frameworks/anthropic/)
-
-### ⚠️ Breaking Changes & Deprecations
-
-**LangChain Agent Deprecation**
-- 🚨 **Breaking**: `initialize_agent` deprecated in favor of `create_react_agent`
-- 📅 **Timeline**: Removal in v0.3.0 (estimated Dec 2025)
-- 🔧 **Migration**: [Automated migration tool](https://www.agentically.sh/ai-agentic-frameworks/langchain-agent-migration/)
-
-**Haystack Agents API Change**
-- 🔄 **Change**: Agent initialization syntax updated
-- 📖 **Guide**: [Migration documentation](https://docs.haystack.deepset.ai/v2.0/docs/migrating-from-haystack-1x)
-- ⏰ **Action Required**: Update by Nov 15, 2025
-
-[View all breaking changes →](https://www.agentically.sh/ai-agentic-frameworks/breaking-changes/)
-
-## 📊 Framework Performance Updates
-
-### Speed Improvements This Week
-- **CrewAI**: 23% faster (v0.12.0 optimizations)
-- **LangGraph**: 31% faster (parallel processing)
-- **AutoGen**: 12% faster (memory optimizations)
-
-### New Benchmarks
-Updated performance benchmarks for all frameworks:
-- [Interactive benchmark explorer →](https://www.agentically.sh/ai-agentic-frameworks/benchmarks/)
-- [Framework speed comparison →](https://www.agentically.sh/ai-agentic-frameworks/benchmarks/speed/)
-
-## 🆕 New Framework Additions
-
-### OpenAI AgentKit
-- **Description**: Official OpenAI framework for building agents
-- **Key Features**: Native GPT-4 integration, tool calling, streaming
-- **Best For**: OpenAI-first applications
-- **Get Started**: [Quick start guide →](https://www.agentically.sh/ai-agentic-frameworks/openai-agentkit/)
-
-### Anthropic Agent Framework  
-- **Description**: Claude-native agent development
-- **Key Features**: Constitutional AI, tool use, safety controls
-- **Best For**: Safety-critical applications
-- **Get Started**: [Setup guide →](https://www.agentically.sh/ai-agentic-frameworks/anthropic/)
-
-### SmolAgents
-- **Description**: Lightweight agents for edge deployment
-- **Key Features**: <50MB memory footprint, edge optimization
-- **Best For**: IoT and mobile applications
-- **Get Started**: [Installation guide →](https://www.agentically.sh/ai-agentic-frameworks/smolagents/)
-
-## 🔧 Tool & Integration Updates
-
-### New Integrations
-- **CrewAI + Zapier**: Workflow automation integration
-- **AutoGen + Slack**: Native Slack bot framework
-- **LangChain + Notion**: Knowledge base connector
-
-### Updated Tools
-- **SerperDevTool**: Enhanced search accuracy (CrewAI)
-- **CodeInterpreter**: Python 3.11 support (AutoGen)
-- **VectorStore**: Improved embedding search (LangChain)
-
-[View all integrations →](https://www.agentically.sh/ai-agentic-frameworks/integrations/)
-
-## 📝 Community Highlights
-
-### Featured Tutorials
-1. **"Building Production Agents with CrewAI"** by @techblogger
-   - 45-minute tutorial covering deployment, monitoring, scaling
-   - [Watch on YouTube](https://youtube.com/watch?v=example)
-
-2. **"AutoGen for Code Review Automation"** by @devops_guru  
-   - Complete guide to PR automation with AutoGen
-   - [Read article](https://blog.example.com/autogen-code-review)
-
-3. **"LangGraph State Management Patterns"** by @ai_architect
-   - Advanced patterns for stateful agent workflows
-   - [GitHub repository](https://github.com/example/langgraph-patterns)
-
-### Community Projects
-- **AgentHub**: Community-driven agent marketplace
-- **Framework Benchmarks**: Open-source performance testing
-- **Migration Tools**: Automated framework migration utilities
-
-## 📈 Market Analysis
-
-### GitHub Stars Growth (Weekly)
-```
-Framework Growth This Week:
-SmolAgents      ████████████████ +2,341
-OpenAI AgentKit ████████████     +1,892  
-Anthropic       ████████         +1,456
-CrewAI         ██████           +1,124
-AutoGen        ████             +892
-LangChain      ███              +678
-LangGraph      ██               +567
-```
-
-### Download Statistics
-- **CrewAI**: 1.2M downloads (+15% week-over-week)
-- **AutoGen**: 890K downloads (+8% week-over-week)
-- **LangChain**: 2.8M downloads (+3% week-over-week)
-
-### Developer Survey Results
-Recent survey of 5,000 developers:
-- 67% plan to adopt AI agents in next 6 months
-- CrewAI leads in "most likely to try" (34%)
-- AutoGen tops "current usage" (28%)
-
-[Full market report →](https://www.agentically.sh/ai-agentic-frameworks/market-report/)
-
-## 🔮 Next Week Preview
-
-### Expected Releases
-- **LangChain v0.1.0**: Major version with agent improvements
-- **CrewAI v0.12.1**: Bug fixes and performance patches
-- **Haystack v2.0.1**: Post-migration stability improvements
-
-### Events & Webinars
-- **Oct 24**: CrewAI Community Call (2 PM EST)
-- **Oct 25**: AutoGen Office Hours (11 AM PST)
-- **Oct 26**: LangChain Developer Webinar (1 PM EST)
-
-### Framework Conferences
-- **AI Agent Summit** (Nov 15-16, SF): All major frameworks presenting
-- **LangChain Conference** (Dec 5-6, Virtual): LangGraph deep dive
-
-## 📚 Learning Resources
-
-### New Documentation
-- [CrewAI Memory Management Guide](https://docs.crewai.com/memory/)
-- [AutoGen Tool Development Tutorial](https://microsoft.github.io/autogen/docs/tutorial/tool-use)
-- [LangGraph Parallel Processing Examples](https://langchain-ai.github.io/langgraph/tutorials/parallel/)
-
-### Updated Guides
-- [Migration from LangChain to CrewAI](https://www.agentically.sh/ai-agentic-frameworks/migrate/langchain-to-crewai/)
-- [Production Deployment Best Practices](https://www.agentically.sh/ai-agentic-frameworks/production/)
-- [Cost Optimization Strategies](https://www.agentically.sh/ai-agentic-frameworks/cost-optimization/)
-
-## 🎯 Action Items for Developers
-
-### This Week
-- [ ] Update CrewAI to v0.12.0 for memory improvements
-- [ ] Review LangChain deprecation warnings in your projects
-- [ ] Test AutoGen v0.2.15 performance improvements
-- [ ] Explore OpenAI AgentKit for new projects
-
-### This Month  
-- [ ] Plan migration from deprecated LangChain agents
-- [ ] Evaluate new frameworks for upcoming projects
-- [ ] Update production monitoring for performance gains
-- [ ] Review and optimize token usage costs
-
-## 📧 Stay Connected
-
-### Subscribe to Updates
-- 📧 [Weekly Email Digest](https://www.agentically.sh/ai-agentic-frameworks/subscribe/) - 15,000+ subscribers
-- 🐦 [Twitter @agenticallysh](https://twitter.com/agenticallysh) - Real-time updates
-- 💬 [Discord Community](https://discord.gg/agentically) - Live discussions
-- 📱 [Mobile App](https://app.agentically.sh) - Push notifications
-
-### RSS & API
-- 📡 [RSS Feed](https://www.agentically.sh/ai-agentic-frameworks/updates/rss.xml)
-- 🔌 [Updates API](https://api.agentically.sh/v1/framework-updates)
-- 📊 [Webhook Integration](https://www.agentically.sh/ai-agentic-frameworks/webhooks/)
-
-## 📖 Previous Updates
-
-### Recent Weeks
-- [Oct 8-15, 2025](./updates/2025-10-15.md) - LangChain v0.3 beta, CrewAI integrations
-- [Oct 1-8, 2025](./updates/2025-10-08.md) - AutoGen multimodal support, new benchmarks
-- [Sep 24-Oct 1, 2025](./updates/2025-10-01.md) - Haystack 2.0 release, performance updates
-
-### Archive
-- [All 2025 Updates](./archive/2025/)
-- [Framework Launch Timeline](./timeline.md)
-- [Major Release History](./releases.md)
-
-[Browse update archive →](https://www.agentically.sh/ai-agentic-frameworks/updates/archive/)
-
-## 🤝 Contributing
-
-### Submit News
-- [Framework Release](https://github.com/agenticallysh/weekly-agent-updates/issues/new?template=release.md) - New version announcements
-- [Breaking Change](https://github.com/agenticallysh/weekly-agent-updates/issues/new?template=breaking-change.md) - Deprecations and changes
-- [Community Highlight](https://github.com/agenticallysh/weekly-agent-updates/issues/new?template=community.md) - Tutorials and projects
-
-### Newsletter Sponsorship
-Reach 15,000+ AI developers weekly:
-- [Sponsorship Information](https://www.agentically.sh/ai-agentic-frameworks/sponsor/)
-- [Media Kit](https://www.agentically.sh/ai-agentic-frameworks/media-kit/)
-
-## 🔗 Quick Links
-
-- [All AI Agent Frameworks →](https://github.com/agenticallysh/ai-agentic-frameworks)
-- [Framework Comparison Tool →](https://www.agentically.sh/ai-agentic-frameworks/compare/)
-- [Performance Benchmarks →](https://github.com/agenticallysh/agent-framework-benchmarks)
-- [Migration Guides →](https://github.com/agenticallysh/agentic-framework-migration-guides)
-- [Production Templates →](https://github.com/agenticallysh/production-agent-templates)
-- [Cost Calculator →](https://github.com/agenticallysh/framework-cost-calculator)
+Track the rapidly evolving AI agent ecosystem with comprehensive weekly updates covering major releases, breaking changes, trending repositories, and production insights across all frameworks.
 
 ---
 
-Built with ❤️ by [Agentically](https://www.agentically.sh) | [Subscribe for Updates →](https://www.agentically.sh/ai-agentic-frameworks/subscribe/)
+## 🔥 Latest Highlights - November 7, 2025
+
+### 🚀 **Major Framework Convergence**
+- **Microsoft Agent Framework**: AutoGen + Semantic Kernel officially unified into single enterprise platform
+- **Claude Agent SDK**: Expanded beyond coding with Computer Use API for UI automation
+- **Google ADK**: New enterprise agent development kit announced at Google Cloud NEXT 2025
+- **NVIDIA NeMo**: Enterprise-ready AI agent platform reaches general availability
+
+### ⚠️ **Critical Breaking Changes**
+- **OpenAI Assistants API**: Deprecation scheduled for Q1 2026, migrate to Responses API
+- **AutoGen Runtime**: Aligning with Semantic Kernel architecture (Q1 2025 transition available)
+
+### 📊 **Performance & Cost Improvements**
+- **15-20%** cost reductions across major frameworks
+- **Production observability** standards finalized by OpenTelemetry
+- **Multi-agent orchestration** frameworks gaining enterprise adoption
+
+[📖 **Read Full Nov 7 Update →**](./updates/2025-11-07.md)
+
+---
+
+## 📅 Weekly Updates Index
+
+| Date | Key Highlights | Frameworks Covered |
+|------|---------------|-------------------|
+| [**Nov 7, 2025**](./updates/2025-11-07.md) | Microsoft Agent Framework convergence, Claude Computer Use API, Production observability standards | AutoGen, Semantic Kernel, Claude, Google ADK, NVIDIA NeMo |
+| [**Nov 1, 2025**](./updates/2025-11-01.md) | LangChain v0.3.0 major release, CrewAI v0.70.1 optimizations, AutoGen multi-modal support | LangChain, CrewAI, AutoGen, LangGraph |
+
+### 📈 **Weekly Growth Stats**
+- **Total Updates**: 3 comprehensive weekly reports
+- **Frameworks Tracked**: 15+ major agent frameworks
+- **Community Growth**: Active monitoring of GitHub trends and releases
+
+---
+
+## 🔥 Trending GitHub Repositories
+
+### **Production-Ready Agents**
+1. **[Agents Towards Production](https://github.com/NirDiamant/agents-towards-production)** ⭐ 14.7k
+   - End-to-end production GenAI agent tutorials
+   - Code-first approach from prototype to scale
+   
+2. **[Plandex](https://github.com/plandex-ai/plandex)** ⭐ 14.6k  
+   - Open source AI coding agent for large projects
+   - Handles 2M+ tokens of context across dozens of files
+
+3. **[500 AI Agents Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)** ⭐ 14.7k
+   - Curated collection of AI agent use cases across industries
+   - Healthcare, finance, education, retail implementations
+
+### **Framework-Specific Projects**
+- **CrewAI**: Leading collaborative agent framework growth
+- **AutoGen**: Multi-agent conversation and task automation
+- **LangChain**: Comprehensive LLM application development
+- **LangGraph**: Stateful agent workflows and orchestration
+
+---
+
+## 🎯 Critical Action Items
+
+### **🚨 Immediate (This Quarter)**
+- [ ] **OpenAI Migration Planning**: Prepare for Assistants API deprecation (Q1 2026)
+- [ ] **Microsoft Framework Transition**: Evaluate AutoGen → Semantic Kernel path (Q1 2025)
+- [ ] **Production Observability**: Implement monitoring for agent workflows
+
+### **📅 Next Quarter Deadlines**
+- **Q1 2026**: OpenAI Assistants API sunset - migrate to Responses API
+- **Q1 2025**: AutoGen-Semantic Kernel seamless transition available
+- **Ongoing**: Framework deprecation monitoring and dependency updates
+
+---
+
+## 📚 Framework Resources
+
+### **Official Documentation**
+- [Microsoft Agent Framework](https://devblogs.microsoft.com/semantic-kernel/microsofts-agentic-ai-frameworks-autogen-and-semantic-kernel/) - Unified AutoGen + Semantic Kernel
+- [Claude Agent SDK](https://docs.claude.com/en/api/agent-sdk/overview) - Computer Use capabilities
+- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction) - LLM application development
+- [CrewAI Documentation](https://docs.crewai.com/) - Multi-agent collaboration
+
+### **Migration Guides**
+- OpenAI Assistants → Responses API (Coming Q1 2025)
+- AutoGen → Semantic Kernel Integration
+- LangChain Agent Deprecation Updates
+- Framework comparison matrices and decision trees
+
+---
+
+## 🔧 Production & Observability
+
+### **Monitoring Platforms**
+- **Google Vertex AI**: Native observability dashboard for agent builders
+- **Azure AI Foundry**: Unified evaluation, monitoring, and tracing
+- **OpenTelemetry**: AI agent semantic conventions (2025 standards)
+- **Langfuse**: Open-source LLM application observability
+
+### **Enterprise Tools**
+- **Cost Optimization**: 15-20% savings with latest framework improvements
+- **Multi-Agent Systems**: Production-ready orchestration frameworks
+- **Compliance**: Enterprise governance and safety controls
+
+---
+
+## 💬 Community & Contributing
+
+### **Stay Updated**
+- 🐦 **Follow**: [@agenticallysh](https://twitter.com/agenticallysh) for real-time updates
+- 💬 **Discord**: Join our [AI Agents Community](https://discord.gg/agentically) (5k+ members)
+- 📧 **Newsletter**: Weekly digest delivered to your inbox
+
+### **Contributing**
+We welcome contributions to keep the community informed:
+
+- **📝 Submit Updates**: Share framework releases, breaking changes, or community projects
+- **🐛 Report Issues**: Found broken links or outdated information?
+- **💡 Suggest Topics**: What frameworks or topics should we cover?
+
+[**Contribution Guidelines →**](./CONTRIBUTING.md)
+
+---
+
+## 📊 Weekly Update Process
+
+### **Our Coverage**
+- **🔍 Research**: Comprehensive monitoring of 40+ agent frameworks
+- **📈 Analysis**: Performance benchmarks, cost impacts, adoption trends
+- **⚠️ Alerts**: Breaking changes, deprecations, migration deadlines
+- **🎯 Actionable**: Developer-focused insights and next steps
+
+### **Publication Schedule**
+- **📅 Every Thursday**: New weekly update published
+- **🔄 Continuous**: Real-time monitoring and community alerts
+- **📊 Monthly**: Comprehensive framework comparison updates
+
+---
+
+## 🏆 Framework Ecosystem Overview
+
+### **Major Players (2025)**
+- **Microsoft**: AutoGen + Semantic Kernel unified platform
+- **Anthropic**: Claude Agent SDK with Computer Use
+- **Google**: ADK enterprise agent development kit
+- **OpenAI**: Responses API + Agents SDK transition
+- **Meta/Community**: LangChain, CrewAI, LlamaIndex ecosystem
+
+### **Emerging Trends**
+- **Production Focus**: Enterprise-grade deployment and monitoring
+- **Multi-Modal Agents**: Vision, audio, and cross-platform capabilities
+- **Cost Optimization**: Framework efficiency and token usage improvements
+- **Observability**: Standardized monitoring and evaluation practices
+
+---
+
+## 📖 Archive & History
+
+### **2025 Updates Archive**
+- [November 2025](./archive/2025-11/) - Framework convergence and enterprise platforms
+- [October 2025](./archive/2025-10/) - LangChain major releases and performance updates
+
+### **Timeline Highlights**
+- **Nov 2025**: Microsoft Agent Framework unification
+- **Oct 2025**: LangChain v0.3.0 architecture overhaul
+- **Q3 2025**: Claude Computer Use API launch
+- **Q2 2025**: Enterprise observability platform maturation
+
+---
+
+## ⚡ Quick Links
+
+| Resource | Description |
+|----------|-------------|
+| [📊 Framework Comparison](./comparisons/) | Side-by-side framework analysis |
+| [🔧 Migration Guides](./migrations/) | Step-by-step framework transitions |
+| [📈 Performance Benchmarks](./benchmarks/) | Speed, cost, and capability metrics |
+| [🎯 Use Case Examples](./examples/) | Real-world agent implementations |
+| [📚 Learning Resources](./resources/) | Tutorials, courses, and documentation |
+
+---
+
+**🤖 Built by the AI agent community | 📧 [Subscribe for Updates](mailto:subscribe@example.com) | 💬 [Join Discord](https://discord.gg/agentically)**
+
+*Last updated: November 7, 2025 | Next update: November 14, 2025*
